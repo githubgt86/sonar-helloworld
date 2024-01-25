@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo ***Building the pipeline by Guy***
+      - aws cloudformation package --template-file sonar-vpc.yml --s3-bucket hands-on-pipeline-source-bucket --output-template-file packaged-template.yml
+artifacts: #to zip everything for buildartifact
+  files:
+    - '**/*'

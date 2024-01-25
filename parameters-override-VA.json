@@ -1,0 +1,13 @@
+{
+  "Parameters": {
+    "CidrBlockAssignment" : "development",
+    "PublicSubnet1AZ" : "us-east-1a",
+    "PublicSubnet2AZ" : "us-east-1b",
+    "PublicSubnet3AZ" : "us-east-1c",
+    "PublicSubnet4AZ" : "us-east-1d",
+    "PrivateSubnet1AZ" : "us-east-1a",
+    "PrivateSubnet2AZ" : "us-east-1b",
+    "PrivateSubnet3AZ" : "us-east-1c",
+    "PrivateSubnet4AZ" : "us-east-1d"
+  }
+}
